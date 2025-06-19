@@ -1,0 +1,436 @@
+BLASTP 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: zebrafish.1.protein.faa
+           52,951 sequences; 38,532,437 total letters
+
+
+
+Query= sp|P04156|PRIO_HUMAN Major prion protein OS=Homo sapiens OX=9606
+GN=PRNP PE=1 SV=1
+
+Length=253
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  XP_017207509.1 protein piccolo isoform X2 [Danio rerio]             43.9    2e-04
+  XP_017207511.1 mucin-16 isoform X4 [Danio rerio]                    43.9    2e-04
+  XP_021323434.1 protein piccolo isoform X5 [Danio rerio]             43.5    3e-04
+  XP_017207510.1 protein piccolo isoform X3 [Danio rerio]             43.5    3e-04
+  XP_021323433.1 protein piccolo isoform X1 [Danio rerio]             43.5    3e-04
+  XP_009291733.1 protein piccolo isoform X1 [Danio rerio]             43.5    3e-04
+  NP_001268391.1 chromodomain-helicase-DNA-binding protein 2 [Dan...  35.8    0.072
+  XP_009291898.1 chromodomain-helicase-DNA-binding protein 2 isof...  35.8    0.075
+  XP_021323367.1 chromodomain-helicase-DNA-binding protein 2 isof...  35.8    0.075
+  XP_021323366.1 chromodomain-helicase-DNA-binding protein 2 isof...  35.8    0.076
+  XP_021323365.1 chromodomain-helicase-DNA-binding protein 2 isof...  35.8    0.076
+  NP_001013315.2 prion protein b precursor [Danio rerio]              35.0    0.12 
+  XP_694691.5 heterogeneous nuclear ribonucleoprotein U isoform X...  33.9    0.27 
+  NP_997839.1 exportin-4 [Danio rerio]                                32.3    1.0  
+  NP_001005992.2 protein lifeguard 3 [Danio rerio]                    32.0    1.1  
+  NP_001038687.2 peptidoglycan recognition protein 6 [Danio rerio]    31.6    1.5  
+  XP_005158706.1 heterogeneous nuclear ribonucleoprotein U isofor...  31.2    2.2  
+  XP_009302873.1 exportin-4 isoform X1 [Danio rerio]                  29.6    5.7  
+  NP_001013484.1 protein FAM221A [Danio rerio]                        28.9    7.7  
+  XP_001921581.3 protein transport protein Sec31A isoform X3 [Dan...  29.3    8.6  
+  XP_005173061.1 protein transport protein Sec31A isoform X2 [Dan...  29.3    8.9  
+  XP_005173060.1 protein transport protein Sec31A isoform X1 [Dan...  29.3    8.9  
+
+
+> XP_017207509.1 protein piccolo isoform X2 [Danio rerio]
+Length=9346
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 34/80 (43%), Positives = 38/80 (48%), Gaps = 15/80 (19%)
+
+Query  27   KPGGWNTGGSRYPGQGSPGGNRYPPQGGG-GWGQPHGGGWG--QPHGGGWG--QPHGGGW  81
+            +P G   GGS+ P     GG++  PQG G G   P G G G  QP G G G  QP G G 
+Sbjct  85   QPQGAGRGGSQ-PQAAGQGGSQ--PQGAGRGGSHPQGAGRGGSQPQGAGRGGSQPQGAGR  141
+
+Query  82   G--QPHGGGWG-----QGGG  94
+            G  QP   G G     QG G
+Sbjct  142  GGFQPQAAGRGGSPVLQGAG  161
+
+
+> XP_017207511.1 mucin-16 isoform X4 [Danio rerio]
+Length=7373
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 34/80 (43%), Positives = 38/80 (48%), Gaps = 15/80 (19%)
+
+Query  27   KPGGWNTGGSRYPGQGSPGGNRYPPQGGG-GWGQPHGGGWG--QPHGGGWG--QPHGGGW  81
+            +P G   GGS+ P     GG++  PQG G G   P G G G  QP G G G  QP G G 
+Sbjct  85   QPQGAGRGGSQ-PQAAGQGGSQ--PQGAGRGGSHPQGAGRGGSQPQGAGRGGSQPQGAGR  141
+
+Query  82   G--QPHGGGWG-----QGGG  94
+            G  QP   G G     QG G
+Sbjct  142  GGFQPQAAGRGGSPVLQGAG  161
+
+
+> XP_021323434.1 protein piccolo isoform X5 [Danio rerio]
+Length=9337
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 34/80 (43%), Positives = 38/80 (48%), Gaps = 15/80 (19%)
+
+Query  27   KPGGWNTGGSRYPGQGSPGGNRYPPQGGG-GWGQPHGGGWG--QPHGGGWG--QPHGGGW  81
+            +P G   GGS+ P     GG++  PQG G G   P G G G  QP G G G  QP G G 
+Sbjct  85   QPQGAGRGGSQ-PQAAGQGGSQ--PQGAGRGGSHPQGAGRGGSQPQGAGRGGSQPQGAGR  141
+
+Query  82   G--QPHGGGWG-----QGGG  94
+            G  QP   G G     QG G
+Sbjct  142  GGFQPQAAGRGGSPVLQGAG  161
+
+
+> XP_017207510.1 protein piccolo isoform X3 [Danio rerio]
+Length=9346
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 34/80 (43%), Positives = 38/80 (48%), Gaps = 15/80 (19%)
+
+Query  27   KPGGWNTGGSRYPGQGSPGGNRYPPQGGG-GWGQPHGGGWG--QPHGGGWG--QPHGGGW  81
+            +P G   GGS+ P     GG++  PQG G G   P G G G  QP G G G  QP G G 
+Sbjct  85   QPQGAGRGGSQ-PQAAGQGGSQ--PQGAGRGGSHPQGAGRGGSQPQGAGRGGSQPQGAGR  141
+
+Query  82   G--QPHGGGWG-----QGGG  94
+            G  QP   G G     QG G
+Sbjct  142  GGFQPQAAGRGGSPVLQGAG  161
+
+
+> XP_021323433.1 protein piccolo isoform X1 [Danio rerio]
+Length=9355
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 34/80 (43%), Positives = 38/80 (48%), Gaps = 15/80 (19%)
+
+Query  27   KPGGWNTGGSRYPGQGSPGGNRYPPQGGG-GWGQPHGGGWG--QPHGGGWG--QPHGGGW  81
+            +P G   GGS+ P     GG++  PQG G G   P G G G  QP G G G  QP G G 
+Sbjct  85   QPQGAGRGGSQ-PQAAGQGGSQ--PQGAGRGGSHPQGAGRGGSQPQGAGRGGSQPQGAGR  141
+
+Query  82   G--QPHGGGWG-----QGGG  94
+            G  QP   G G     QG G
+Sbjct  142  GGFQPQAAGRGGSPVLQGAG  161
+
+
+> XP_009291733.1 protein piccolo isoform X1 [Danio rerio]
+Length=9355
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 34/80 (43%), Positives = 38/80 (48%), Gaps = 15/80 (19%)
+
+Query  27   KPGGWNTGGSRYPGQGSPGGNRYPPQGGG-GWGQPHGGGWG--QPHGGGWG--QPHGGGW  81
+            +P G   GGS+ P     GG++  PQG G G   P G G G  QP G G G  QP G G 
+Sbjct  85   QPQGAGRGGSQ-PQAAGQGGSQ--PQGAGRGGSHPQGAGRGGSQPQGAGRGGSQPQGAGR  141
+
+Query  82   G--QPHGGGWG-----QGGG  94
+            G  QP   G G     QG G
+Sbjct  142  GGFQPQAAGRGGSPVLQGAG  161
+
+
+> NP_001268391.1 chromodomain-helicase-DNA-binding protein 2 [Danio 
+rerio]
+Length=1799
+
+ Score = 35.8 bits (81),  Expect = 0.072, Method: Composition-based stats.
+ Identities = 39/157 (25%), Positives = 59/157 (38%), Gaps = 15/157 (10%)
+
+Query  25    RPKPGGWNTGGSRYPGQGSPGGNRYPP---QGGGGWGQPHGGGWGQPHGGGWGQPHGGGW  81
+             RP+P    +G SR      P    +PP   Q G      H   + Q +   +     G W
+Sbjct  1558  RPEP----SGSSRDSTGAQPTTKPHPPVSHQSGPPHPPHHREQYNQHNKRHFPNDDRGDW  1613
+
+Query  82    GQPHGGGWGQGGGTHSQW----NKPSKPKTNMKHMAGAAAAGAVVGGLGGYM-LGSAMSR  136
+              +     +G  G ++  W    + P +P     H              GGY   GS   R
+Sbjct  1614  QRDRK--YGYPGNSNQPWQGDRHHPYEPHRYKDHHYSDRRPHGDYRSSGGYRNSGSPRKR  1671
+
+Query  137   PIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQN  173
+             P   +G+D + R +R+   R+P+    R  DEY + N
+Sbjct  1672  PYDQYGNDRDHRGHRDYYDRHPDPKRRRS-DEYRSPN  1707
+
+
+> XP_009291898.1 chromodomain-helicase-DNA-binding protein 2 isoform 
+X2 [Danio rerio]
+Length=1813
+
+ Score = 35.8 bits (81),  Expect = 0.075, Method: Composition-based stats.
+ Identities = 39/157 (25%), Positives = 59/157 (38%), Gaps = 15/157 (10%)
+
+Query  25    RPKPGGWNTGGSRYPGQGSPGGNRYPP---QGGGGWGQPHGGGWGQPHGGGWGQPHGGGW  81
+             RP+P    +G SR      P    +PP   Q G      H   + Q +   +     G W
+Sbjct  1572  RPEP----SGSSRDSTGAQPTTKPHPPVSHQSGPPHPPHHREQYNQHNKRHFPNDDRGDW  1627
+
+Query  82    GQPHGGGWGQGGGTHSQW----NKPSKPKTNMKHMAGAAAAGAVVGGLGGYM-LGSAMSR  136
+              +     +G  G ++  W    + P +P     H              GGY   GS   R
+Sbjct  1628  QRDRK--YGYPGNSNQPWQGDRHHPYEPHRYKDHHYSDRRPHGDYRSSGGYRNSGSPRKR  1685
+
+Query  137   PIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQN  173
+             P   +G+D + R +R+   R+P+    R  DEY + N
+Sbjct  1686  PYDQYGNDRDHRGHRDYYDRHPDPKRRRS-DEYRSPN  1721
+
+
+> XP_021323367.1 chromodomain-helicase-DNA-binding protein 2 isoform 
+X3 [Danio rerio]
+Length=1778
+
+ Score = 35.8 bits (81),  Expect = 0.075, Method: Composition-based stats.
+ Identities = 39/157 (25%), Positives = 59/157 (38%), Gaps = 15/157 (10%)
+
+Query  25    RPKPGGWNTGGSRYPGQGSPGGNRYPP---QGGGGWGQPHGGGWGQPHGGGWGQPHGGGW  81
+             RP+P    +G SR      P    +PP   Q G      H   + Q +   +     G W
+Sbjct  1537  RPEP----SGSSRDSTGAQPTTKPHPPVSHQSGPPHPPHHREQYNQHNKRHFPNDDRGDW  1592
+
+Query  82    GQPHGGGWGQGGGTHSQW----NKPSKPKTNMKHMAGAAAAGAVVGGLGGYM-LGSAMSR  136
+              +     +G  G ++  W    + P +P     H              GGY   GS   R
+Sbjct  1593  QRDRK--YGYPGNSNQPWQGDRHHPYEPHRYKDHHYSDRRPHGDYRSSGGYRNSGSPRKR  1650
+
+Query  137   PIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQN  173
+             P   +G+D + R +R+   R+P+    R  DEY + N
+Sbjct  1651  PYDQYGNDRDHRGHRDYYDRHPDPKRRRS-DEYRSPN  1686
+
+
+> XP_021323366.1 chromodomain-helicase-DNA-binding protein 2 isoform 
+X1 [Danio rerio]
+Length=1817
+
+ Score = 35.8 bits (81),  Expect = 0.076, Method: Composition-based stats.
+ Identities = 39/157 (25%), Positives = 59/157 (38%), Gaps = 15/157 (10%)
+
+Query  25    RPKPGGWNTGGSRYPGQGSPGGNRYPP---QGGGGWGQPHGGGWGQPHGGGWGQPHGGGW  81
+             RP+P    +G SR      P    +PP   Q G      H   + Q +   +     G W
+Sbjct  1576  RPEP----SGSSRDSTGAQPTTKPHPPVSHQSGPPHPPHHREQYNQHNKRHFPNDDRGDW  1631
+
+Query  82    GQPHGGGWGQGGGTHSQW----NKPSKPKTNMKHMAGAAAAGAVVGGLGGYM-LGSAMSR  136
+              +     +G  G ++  W    + P +P     H              GGY   GS   R
+Sbjct  1632  QRDRK--YGYPGNSNQPWQGDRHHPYEPHRYKDHHYSDRRPHGDYRSSGGYRNSGSPRKR  1689
+
+Query  137   PIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQN  173
+             P   +G+D + R +R+   R+P+    R  DEY + N
+Sbjct  1690  PYDQYGNDRDHRGHRDYYDRHPDPKRRRS-DEYRSPN  1725
+
+
+> XP_021323365.1 chromodomain-helicase-DNA-binding protein 2 isoform 
+X1 [Danio rerio]
+Length=1817
+
+ Score = 35.8 bits (81),  Expect = 0.076, Method: Composition-based stats.
+ Identities = 39/157 (25%), Positives = 59/157 (38%), Gaps = 15/157 (10%)
+
+Query  25    RPKPGGWNTGGSRYPGQGSPGGNRYPP---QGGGGWGQPHGGGWGQPHGGGWGQPHGGGW  81
+             RP+P    +G SR      P    +PP   Q G      H   + Q +   +     G W
+Sbjct  1576  RPEP----SGSSRDSTGAQPTTKPHPPVSHQSGPPHPPHHREQYNQHNKRHFPNDDRGDW  1631
+
+Query  82    GQPHGGGWGQGGGTHSQW----NKPSKPKTNMKHMAGAAAAGAVVGGLGGYM-LGSAMSR  136
+              +     +G  G ++  W    + P +P     H              GGY   GS   R
+Sbjct  1632  QRDRK--YGYPGNSNQPWQGDRHHPYEPHRYKDHHYSDRRPHGDYRSSGGYRNSGSPRKR  1689
+
+Query  137   PIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQN  173
+             P   +G+D + R +R+   R+P+    R  DEY + N
+Sbjct  1690  PYDQYGNDRDHRGHRDYYDRHPDPKRRRS-DEYRSPN  1725
+
+
+> NP_001013315.2 prion protein b precursor [Danio rerio]
+Length=606
+
+ Score = 35.0 bits (79),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 38/146 (26%), Positives = 52/146 (36%), Gaps = 27/146 (18%)
+
+Query  99   WNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYP  158
+            +N  +K K   K    AA  GA+ G   GY +G+   RP   F S  E+RYY  +M    
+Sbjct  366  YNPSAKSKGFGKKAVVAAGVGAMAGMAIGYGIGN-FQRPNFQFRSPQEERYYNNHM----  420
+
+Query  159  NQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKG---------ENFTETDVKMMERV  209
+                      Y  Q+    D  N     HT  T             +NF +T +K    +
+Sbjct  421  ----------YQRQDTRFKDGGNKKKPSHTAGTDNTSKLPAQAQSYDNFMKTCMKRNNLL  470
+
+Query  210  VEQMCITQYERESQAYYQRGSSMVLF  235
+             +Q      E    +  QR   M  F
+Sbjct  471  RDQDSK---ESAGNSNIQRDEPMSDF  493
+
+
+> XP_694691.5 heterogeneous nuclear ribonucleoprotein U isoform 
+X1 [Danio rerio]
+Length=760
+
+ Score = 33.9 bits (76),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 26/65 (40%), Gaps = 3/65 (5%)
+
+Query  18   DLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGG---GWG  74
+            D  +C   PKP        R   +G  G N +   G GG  Q  GG  G PH G   G  
+Sbjct  581  DSKICSLEPKPIQAGVQSKRRSSKGRGGKNMFNRGGEGGLAQRGGGRGGFPHRGNFMGVP  640
+
+Query  75   QPHGG  79
+             P GG
+Sbjct  641  IPRGG  645
+
+
+> NP_997839.1 exportin-4 [Danio rerio]
+Length=1150
+
+ Score = 32.3 bits (72),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 21/77 (27%), Positives = 33/77 (43%), Gaps = 22/77 (29%)
+
+Query  128  YMLGSAMSRPII---------HFGSDYEDRYYRENMH----RYPNQVYYRPMDEYSNQNN  174
+            +ML S + R ++         H  SD + +Y+ E +H    R+ N +         NQ N
+Sbjct  740  HMLSSTVQRTLMKALVLGGFAHMDSDTKQQYWAEVLHPLQQRFLNLI---------NQEN  790
+
+Query  175  FVHDCVNITIKQHTVTT  191
+            F   C  + +KQ  V T
+Sbjct  791  FAQICQEVAVKQEIVAT  807
+
+
+> NP_001005992.2 protein lifeguard 3 [Danio rerio]
+Length=332
+
+ Score = 32.0 bits (71),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 27/57 (47%), Gaps = 1/57 (2%)
+
+Query  38  YPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGG  94
+           YP    P G   P +G  G+ QP+    GQP+    GQP+    GQP+    GQ  G
+Sbjct  25  YPPSAPPYGFS-PYEGQPGYPQPNDPYRGQPNDPYRGQPNDPYRGQPNDPYRGQPAG  80
+
+
+> NP_001038687.2 peptidoglycan recognition protein 6 [Danio rerio]
+Length=498
+
+ Score = 31.6 bits (70),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 26/127 (20%), Positives = 52/127 (41%), Gaps = 18/127 (14%)
+
+Query  94   GTHSQWNKPSKPKT-NMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRE  152
+            GT   W+    P+   +  +   A    ++GG+ G++LGS M+       SD+ +    E
+Sbjct  199  GTKGYWDSIKSPRVYTLSGLPSLATDALIIGGMDGFILGSEMA------SSDHPE----E  248
+
+Query  153  NMHRYPNQVYYRPMDEYS-------NQNNFVHDCVNITIKQHTVTTTTKGENFTETDVKM  205
+            ++       Y + +D+ +        + NF +      +K   V   T   N  + + K 
+Sbjct  249  SLSSLLRSYYSQKLDDAAPRLISQKRRMNFRNMADFSLMKTQVVRALTVRRNLNQDERKK  308
+
+Query  206  MERVVEQ  212
+            ++ VV +
+Sbjct  309  LDDVVNE  315
+
+
+> XP_005158706.1 heterogeneous nuclear ribonucleoprotein U isoform 
+X2 [Danio rerio]
+Length=759
+
+ Score = 31.2 bits (69),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 29/80 (36%), Gaps = 12/80 (15%)
+
+Query  6    CWMLVLFVATW------------SDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYPPQG  53
+            C+  VL+V                D  +C   PKP        R   +G  G N +   G
+Sbjct  557  CFSEVLYVELQKEEVAKLLEQYKEDSKICSLEPKPIQAGVQSKRRSSKGRGGKNMFNRGG  616
+
+Query  54   GGGWGQPHGGGWGQPHGGGW  73
+             GG  Q  GG  G PH G +
+Sbjct  617  EGGLAQRGGGRGGFPHRGNF  636
+
+
+> XP_009302873.1 exportin-4 isoform X1 [Danio rerio]
+Length=861
+
+ Score = 29.6 bits (65),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 21/77 (27%), Positives = 32/77 (42%), Gaps = 22/77 (29%)
+
+Query  128  YMLGSAMSRPII---------HFGSDYEDRYYRENMH----RYPNQVYYRPMDEYSNQNN  174
+            +ML S + R ++         H  SD + +Y+ E +H    R+ N +         NQ N
+Sbjct  451  HMLSSTVQRTLMKALVLGGFAHMDSDTKQQYWAEVLHPLQQRFLNLI---------NQEN  501
+
+Query  175  FVHDCVNITIKQHTVTT  191
+            F   C    +KQ  V T
+Sbjct  502  FAQICQEEAVKQEIVAT  518
+
+
+> NP_001013484.1 protein FAM221A [Danio rerio]
+Length=216
+
+ Score = 28.9 bits (63),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  77   HGGGWGQPHGGGWGQGGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGY  128
+            H  G+  P   G G+ G TH    +  + +    H  G A   A +GGL G+
+Sbjct  146  HCTGYRSPFTCGCGEPGYTHVTLIETREERMARGHPVGRAVPYAAMGGLTGF  197
+
+
+> XP_001921581.3 protein transport protein Sec31A isoform X3 [Danio 
+rerio]
+Length=1171
+
+ Score = 29.3 bits (64),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 29/86 (34%), Gaps = 13/86 (15%)
+
+Query  34    GGSRYPGQGSPGGNRYPPQGG----GGWGQPHGGGWGQPHGGGWG------QPHGG--GW  81
+             GG R+PG     G   PP G     G  G P GG  G P    +        P G   GW
+Sbjct  934   GGPRFPGSAHTQGPAPPPTGAYPSLGAAGYPQGGP-GAPAAKSFSGAPVPPPPSGAQDGW  992
+
+Query  82    GQPHGGGWGQGGGTHSQWNKPSKPKT  107
+               P     GQ      +   P  P T
+Sbjct  993   NDPPAVRAGQRKKKLPENYTPPAPIT  1018
+
+
+> XP_005173061.1 protein transport protein Sec31A isoform X2 [Danio 
+rerio]
+Length=1174
+
+ Score = 29.3 bits (64),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 29/86 (34%), Gaps = 13/86 (15%)
+
+Query  34    GGSRYPGQGSPGGNRYPPQGG----GGWGQPHGGGWGQPHGGGWG------QPHGG--GW  81
+             GG R+PG     G   PP G     G  G P GG  G P    +        P G   GW
+Sbjct  937   GGPRFPGSAHTQGPAPPPTGAYPSLGAAGYPQGGP-GAPAAKSFSGAPVPPPPSGAQDGW  995
+
+Query  82    GQPHGGGWGQGGGTHSQWNKPSKPKT  107
+               P     GQ      +   P  P T
+Sbjct  996   NDPPAVRAGQRKKKLPENYTPPAPIT  1021
+
+
+> XP_005173060.1 protein transport protein Sec31A isoform X1 [Danio 
+rerio]
+Length=1174
+
+ Score = 29.3 bits (64),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 29/86 (34%), Gaps = 13/86 (15%)
+
+Query  34    GGSRYPGQGSPGGNRYPPQGG----GGWGQPHGGGWGQPHGGGWG------QPHGG--GW  81
+             GG R+PG     G   PP G     G  G P GG  G P    +        P G   GW
+Sbjct  937   GGPRFPGSAHTQGPAPPPTGAYPSLGAAGYPQGGP-GAPAAKSFSGAPVPPPPSGAQDGW  995
+
+Query  82    GQPHGGGWGQGGGTHSQWNKPSKPKT  107
+               P     GQ      +   P  P T
+Sbjct  996   NDPPAVRAGQRKKKLPENYTPPAPIT  1021
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4879942136
+
+
+  Database: zebrafish.1.protein.faa
+    Posted date:  Jun 19, 2025  7:03 PM
+  Number of letters in database: 38,532,437
+  Number of sequences in database:  52,951
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
